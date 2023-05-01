@@ -32,7 +32,7 @@ export default function Home() {
 }
 
 // This gets called on every request
-export async function getServerSideProps(context) {
+export async function getInitialProps(context) {
   const user = await getUser(context.req);
 
   if (!user) {
