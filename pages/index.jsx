@@ -13,7 +13,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!isLoading && !isLoggedIn) {
-      router.push("/login");
+      router.push("/login").then(r => console.log(r));
     }
   }, [isLoading, isLoggedIn, router]);
 

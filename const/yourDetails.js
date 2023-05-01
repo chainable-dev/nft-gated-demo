@@ -1,5 +1,5 @@
 // Replace this with your contract address
-export const contractAddress = "0xB35cE7f1Be137a207e8D959B52767bEabbccE46d";
+export const contractAddress = "0x3201d78d9de2d355372DBcb3379b07fe8492FF02";
 
 // Replace this with your domain name.
 export const domainName = "example.com";
