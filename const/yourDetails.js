@@ -2,7 +2,7 @@
 export const contractAddress = "0x3201d78d9de2d355372DBcb3379b07fe8492FF02";
 
 // Replace this with your domain name.
-export const domainName = "example.com";
+export const domainName = "chainable.eth.limo";
 
 // Minimum number of tokens required to access
 export const minimumBalance = 1;
